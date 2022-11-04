@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite" verbose="1" >
+  <test name="Scenario Test" >
+    <classes>
+       <class name="com.envision.automation.tests.siteOrangeHRMSuccessful">
+         <methods>
+           <include name="PositiveLogin"/>
+             <include name="NegativeLogin"/>
+         </methods>
+       </class>
+    </classes>
+  </test>
+    </suite>
+
